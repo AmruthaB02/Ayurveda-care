@@ -1,0 +1,1126 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap');
+:root{font-family:'DM Sans',sans-serif;color:#282235;background:#fbf9fc;font-synthesis:none;text-rendering:optimizeLegibility;--purple:#4d2868;--deep:#35194c;--lav:#f0e8f5;--green:#6b8c68;--ink:#282235;--muted:#777181;--line:#e9e3ed}
+*{box-sizing:border-box}body{margin:0;min-width:320px;background:#fbf9fc}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button{cursor:pointer}.header{height:84px;background:rgba(255,255,255,.96);border-bottom:1px solid #eee8f1;position:sticky;top:0;z-index:20;backdrop-filter:blur(14px)}.nav-wrap{max-width:1200px;height:100%;padding:0 28px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;gap:10px;align-items:center;color:var(--deep);font-size:22px;font-weight:700;letter-spacing:-.7px;line-height:1.1}.brand-icon{width:42px;height:42px;border-radius:14px;background:#efe6f4;color:var(--purple);display:grid;place-items:center}.brand-accent{color:#78936d}.brand small{display:block;font-size:8px;letter-spacing:1.6px;color:#94899b;margin-top:5px;font-weight:600}.nav{display:flex;align-items:center;gap:24px;font-size:13px;color:#655b6d}.nav a{transition:.2s}.nav a:hover,.nav a.active{color:var(--purple)}.nav-login{display:inline-flex;gap:8px;align-items:center;background:var(--purple);color:white!important;border:0;padding:11px 17px;border-radius:10px;font-weight:600;font-size:13px}.menu-toggle{display:none;background:none;border:0;color:var(--purple)}.hero{position:relative;min-height:590px;display:flex;align-items:center;overflow:hidden;background:#392149 url('https://images.unsplash.com/photo-1545389336-cf090694435e?auto=format&fit=crop&w=2000&q=85') center 48%/cover no-repeat;color:white}.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(39,20,54,.96) 0%,rgba(53,30,69,.88) 43%,rgba(43,28,51,.18) 100%)}.hero-content{position:relative;z-index:1;max-width:1200px;width:100%;margin:0 auto;padding:72px 28px 82px}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:#d9e7c9;font-size:10px;letter-spacing:2px;font-weight:700}.hero h1,.auth-art h1{font-family:'Playfair Display',serif;font-size:clamp(44px,5.7vw,70px);line-height:1.08;font-weight:500;letter-spacing:-1.3px;margin:25px 0 20px}.hero h1 em,.section h2 em,.journey h2 em,.page-hero h1 em,.dash-heading h1 em,.auth-art h1 em{color:#c8d9b9;font-weight:500}.hero-content>p{max-width:520px;color:#e5dce9;line-height:1.8;font-size:15px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:10px;padding:13px 19px;font-size:13px;font-weight:700;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-1px)}.btn.primary{background:var(--purple);color:white}.hero .btn.primary{background:#d7e5c8;color:#2d3c28}.btn.light{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.35);color:white}.btn.soft{background:#f0e7f5;color:var(--purple);padding:8px 11px}.btn:disabled{opacity:.55;cursor:not-allowed;transform:none}.hero-trust{display:flex;gap:24px;flex-wrap:wrap;margin-top:35px;color:#e7dfee;font-size:11px}.hero-trust span{display:flex;align-items:center;gap:7px}.hero-note{position:absolute;right:max(28px,calc((100vw - 1144px)/2));bottom:35px;z-index:1;display:flex;align-items:center;gap:13px;background:rgba(255,255,255,.93);color:#3d3049;padding:15px 20px;border-radius:14px;max-width:300px;box-shadow:0 10px 40px #21152b35}.note-leaf{width:40px;height:40px;display:grid;place-items:center;border-radius:12px;background:#e8f0e0;color:#65865c}.hero-note b,.hero-note small{display:block}.hero-note b{font-size:12px}.hero-note small{font-size:10px;line-height:1.5;color:#777080;margin-top:4px}.section{max-width:1200px;margin:auto;padding:85px 28px}.section-kicker{font-size:10px;letter-spacing:2px;font-weight:700;color:#78936d}.section h2,.journey h2{font-family:'Playfair Display',serif;font-size:clamp(34px,4vw,48px);line-height:1.15;font-weight:500;margin:16px 0}.section h2 em{color:var(--purple)}.section-lead{max-width:590px;color:var(--muted);line-height:1.8;font-size:14px}.feature-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:17px;margin-top:37px}.feature-card{padding:25px 22px 22px;border:1px solid var(--line);border-radius:16px;background:white;min-height:235px;display:flex;flex-direction:column;align-items:flex-start;transition:.2s}.feature-card:hover,.knowledge-card:hover{transform:translateY(-3px);box-shadow:0 16px 40px #3c25470d}.feature-icon{width:45px;height:45px;display:grid;place-items:center;border-radius:14px;background:#f0e9f5;color:var(--purple)}.feature-card h3{font-size:16px;margin:19px 0 8px}.feature-card p{font-size:12px;color:var(--muted);line-height:1.7;margin:0 0 18px}.feature-card a,.text-link{display:inline-flex;align-items:center;gap:7px;color:var(--purple);font-size:12px;font-weight:700;margin-top:auto}.journey{background:#40234f;color:white;padding:75px max(28px,calc((100vw - 1144px)/2));display:grid;grid-template-columns:.9fr 1.1fr;gap:80px}.journey h2{margin:15px 0;color:white}.journey h2 em{color:#d3e2c4}.journey>div>p{font-size:13px;line-height:1.8;color:#d8cddd;max-width:380px;margin-bottom:26px}.light-kicker{color:#c8d9b9}.journey .text-link{color:#d8e5cc}.journey-steps{display:grid;gap:8px}.journey-step{display:flex;gap:18px;padding:17px 0;border-bottom:1px solid #ffffff25}.journey-step>span{font-family:'Playfair Display',serif;font-size:22px;color:#c6d8b8}.journey-step b{font-size:14px}.journey-step p{margin:5px 0 0;color:#d7cddd;font-size:12px;line-height:1.6}.safety{max-width:1144px;margin:40px auto 65px;padding:22px 25px;border:1px solid #e2e9dc;border-radius:15px;background:#f5f8f1;display:flex;align-items:center;gap:18px}.safety-icon{flex-shrink:0;width:43px;height:43px;border-radius:13px;background:#e5efdc;color:#61855b;display:grid;place-items:center}.safety>div{flex:1}.safety b{font-size:13px}.safety p{font-size:11px;color:#716f73;line-height:1.6;margin:5px 0 0}.safety>a{font-size:11px;font-weight:700;color:var(--purple);display:flex;gap:5px;align-items:center;white-space:nowrap}.footer{background:#f1ecf4;border-top:1px solid #e6dfea}.footer-inner{max-width:1200px;padding:35px 28px 20px;margin:auto}.footer-brand{font-size:18px}.footer-brand .brand-icon{width:37px;height:37px}.footer-inner>p{font-size:12px;color:#746b7c;margin:14px 0 7px}.footer-inner>small{font-size:10px;color:#857c8b}.copyright{border-top:1px solid #ded5e4;margin-top:24px;padding-top:15px;font-size:10px;color:#8b8192}.page{min-height:65vh;padding-bottom:75px}.page-hero{text-align:center;padding:65px 22px 47px;background:radial-gradient(ellipse at top,#f0e8f6 0%,#fbf9fc 70%)}.page-hero h1{font-family:'Playfair Display',serif;font-weight:500;font-size:clamp(35px,4vw,50px);margin:14px 0;color:var(--deep)}.page-hero h1 em{color:#718c68}.page-hero>p{max-width:690px;margin:0 auto;color:var(--muted);font-size:13px;line-height:1.8}.content-wrap{max-width:1144px;padding:0 22px;margin:0 auto}.search-row{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:15px 0 27px;flex-wrap:wrap}.searchbox{display:flex;align-items:center;gap:10px;background:white;border:1px solid var(--line);padding:0 13px;border-radius:10px;min-width:270px;flex:1;max-width:430px;height:45px;color:#9b91a3}.searchbox svg{width:17px}.searchbox input{border:0;outline:0;width:100%;font-size:12px;color:var(--ink)}.tabs{display:flex;gap:5px;flex-wrap:wrap}.tab{border:0;background:transparent;padding:10px 13px;color:#777080;border-radius:8px;font-size:12px}.tab.active{background:#eee5f4;color:var(--purple);font-weight:700}.knowledge-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.knowledge-card{border:1px solid var(--line);border-radius:15px;background:white;padding:22px;transition:.2s;min-width:0}.knowledge-top{display:flex;align-items:center;justify-content:space-between}.round-leaf{width:40px;height:40px;border-radius:13px;background:#eaf1e5;color:#63875b;display:grid;place-items:center}.reference-tag{font-size:9px;letter-spacing:1.1px;color:#6b865f;background:#edf4e8;border-radius:30px;padding:6px 9px;font-weight:700}.knowledge-card h3{font-size:17px;margin:17px 0 5px;color:#352440}.knowledge-card .latin{font-family:'Playfair Display',serif;color:#8c7d93;font-style:italic;font-size:12px;margin:0 0 12px}.knowledge-card>p:not(.latin){font-size:12px;color:#756d7c;line-height:1.7}.knowledge-card details{margin-top:17px;padding-top:13px;border-top:1px solid #f0ebf2}.knowledge-card summary{cursor:pointer;color:var(--purple);font-size:11px;font-weight:700}.knowledge-card details p{font-size:11px;color:#756d7c;line-height:1.7}.precaution{background:#fbf7ed;border-radius:8px;padding:10px}.disclaimer{font-size:11px;line-height:1.7;color:#817789;background:#f1ecf5;border-radius:10px;padding:14px 16px;margin-top:25px}.doctor-search{display:flex;gap:13px;margin:10px 0 25px}.field,.doctor-search .field{border:1px solid var(--line);background:white;border-radius:10px;padding:12px 14px;font-size:12px;outline-color:#b49bc5;min-width:230px}.doctor-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:17px}.doctor-card{border:1px solid var(--line);border-radius:15px;background:white;padding:24px;position:relative}.doctor-avatar{width:52px;height:52px;display:grid;place-items:center;border-radius:16px;background:#eee6f4;color:var(--purple);margin-bottom:14px}.verified{position:absolute;top:25px;right:22px;display:flex;gap:5px;align-items:center;font-size:9px;color:#63845a;background:#edf4e8;border-radius:30px;padding:7px}.doctor-card h3{font-family:'Playfair Display',serif;font-weight:600;font-size:22px;margin:7px 0 5px}.doctor-card p{font-size:12px;line-height:1.6;color:#766d7e;margin:6px 0}.doctor-card .doctor-spec{color:#718c68;font-weight:700}.doctor-bottom{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #eee8f1;margin-top:19px;padding-top:16px;gap:10px}.doctor-bottom>span{font-weight:700;color:var(--purple);font-size:17px}.doctor-bottom small{font-size:10px;color:#8c8293;font-weight:400}.doctor-bottom .btn{padding:10px 12px;font-size:11px}.empty{border:1px dashed #d9cddd;border-radius:14px;background:#fff;padding:38px 20px;text-align:center;color:#80758b}.empty h3,.empty h2{color:#392449}.empty p{font-size:12px;line-height:1.7}.empty.compact{padding:22px;font-size:12px}.alert,.success{padding:12px 14px;border-radius:9px;font-size:12px;line-height:1.6;margin:13px 0;background:#fff2e9;color:#8b4c24;border:1px solid #f2d9c6}.success{background:#eef6e9;color:#466c3f;border-color:#dcebd3;display:flex;justify-content:space-between;gap:10px}.success button{background:none;border:0;color:inherit}.modal-backdrop{position:fixed;inset:0;background:#24172dbb;z-index:50;display:grid;place-items:center;padding:18px}.modal{position:relative;background:white;border-radius:18px;padding:30px;width:min(100%,460px);max-height:90vh;overflow:auto}.modal h2{font-family:'Playfair Display',serif;color:var(--deep);margin:10px 0}.modal>p{font-size:12px;color:var(--muted)}.modal-close{position:absolute;right:18px;top:12px;border:0;background:none;font-size:28px;color:#786b81}.modal label,.auth-form label,.dashboard-form label{display:flex;flex-direction:column;gap:7px;font-size:11px;font-weight:700;color:#5d5068;margin:14px 0}.modal input,.modal select,.auth-form input,.auth-form select,.dashboard-form input,.dashboard-form select,.dashboard-form textarea{width:100%;border:1px solid #e3dbe8;background:white;border-radius:9px;padding:11px 12px;outline-color:#b39bc2;font-size:12px;color:#352640}.modal>.btn{width:100%;margin-top:10px}.auth-page{display:grid;grid-template-columns:1fr 1fr;min-height:calc(100vh - 84px)}.auth-art{background:linear-gradient(0deg,#321843df,#321843a6),url('https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=1200&q=80') center/cover;display:flex;align-items:center;color:white;padding:50px}.auth-art-content{max-width:480px;margin:auto}.auth-art h1{font-size:clamp(37px,4vw,53px)}.auth-art h1 em{color:#d2e1c5}.auth-art-content>p{font-size:13px;line-height:1.8;color:#e3d7e9}.auth-art-pills{display:grid;gap:13px;margin-top:35px}.auth-art-pills span{display:flex;align-items:center;gap:10px;font-size:11px;color:#e5dcea}.auth-art-pills svg{width:18px;color:#cfe0c2}.auth-panel{padding:42px 28px;display:flex;align-items:center;justify-content:center}.auth-form{width:100%;max-width:430px}.auth-form h2{font-family:'Playfair Display',serif;font-weight:500;color:var(--deep);font-size:30px;margin:12px 0 8px}.auth-form>p{font-size:12px;color:var(--muted);margin:0 0 22px}.auth-form form .btn{width:100%;margin-top:7px}.auth-switch{text-align:center;margin-top:19px;font-size:11px;color:#81768a}.auth-switch a{color:var(--purple);font-weight:700}.demo-login{display:grid;gap:5px;background:#f3edf7;border-radius:10px;padding:13px;margin-top:21px;color:#695776}.demo-login b{font-size:11px}.demo-login small{font-size:10px;line-height:1.5}.dashboard-page{max-width:1144px;margin:auto;padding:48px 22px 80px}.dash-heading{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px}.dash-heading h1{font-family:'Playfair Display',serif;font-size:39px;font-weight:500;color:var(--deep);margin:9px 0}.dash-heading h1 em{color:#718c68}.dash-heading p{font-size:12px;color:var(--muted)}.role-pill{display:flex;gap:7px;align-items:center;padding:9px 13px;background:#eee6f4;color:var(--purple);border-radius:30px;font-size:11px;text-transform:capitalize}.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin-bottom:28px}.stat-card{border:1px solid var(--line);border-radius:13px;background:white;padding:20px}.stat-card span{display:block;text-transform:capitalize;font-size:11px;color:#83788b}.stat-card b{display:block;font-family:'Playfair Display',serif;font-size:31px;color:var(--purple);margin-top:7px}.dash-section{border:1px solid var(--line);border-radius:15px;background:white;padding:24px;margin-top:18px}.dash-section h2{font-family:'Playfair Display',serif;font-size:23px;font-weight:500;color:var(--deep);margin:0 0 8px}.dash-section>p,.dash-section-head p,.section-sub{font-size:11px;color:var(--muted);line-height:1.7;margin:0 0 18px}.dash-section-head{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:18px}.dash-section-head h2{margin-bottom:6px}.table-wrap{overflow:auto;border:1px solid #eee8f1;border-radius:10px}table{width:100%;border-collapse:collapse;text-align:left;min-width:650px}th{font-size:10px;text-transform:uppercase;letter-spacing:.8px;color:#85788d;background:#f8f5fa;padding:13px 15px}td{font-size:11px;padding:14px 15px;border-top:1px solid #f0ebf2;color:#53475e}td small.cell-sub{display:block;color:#9a8ea1;font-size:10px;margin-top:4px}.status{font-size:9px;font-weight:700;padding:6px 8px;border-radius:20px;background:#f1eaf6;color:#694b80;text-transform:capitalize}.status.completed{background:#e9f4e5;color:#4e7b45}.status.cancelled{background:#fbe9e8;color:#a04d48}.status.pending{background:#fff2d8;color:#8b6828}.dashboard-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 16px}.dashboard-form label{margin:8px 0}.dashboard-form label:nth-child(2),.dashboard-form label:nth-child(3),.dashboard-form label:nth-child(6),.dashboard-form label:nth-child(7),.dashboard-form label:nth-child(8),.dashboard-form label:nth-child(9){grid-column:span 1}.dashboard-form button{align-self:end;margin:14px 0}.hint{margin-top:15px!important}.record-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.record-card{border:1px solid #eee7f2;border-radius:12px;padding:18px}.record-card h3{font-family:'Playfair Display',serif;font-size:19px;color:var(--deep);margin:14px 0 9px}.record-card p{font-size:11px;color:#756b7d;line-height:1.7}.prescription{background:#f4eff8;padding:11px;border-radius:8px;font-size:11px;line-height:1.6;color:#574163}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:10px}
+@media(max-width:900px){.nav{gap:13px;font-size:11px}.feature-grid{grid-template-columns:repeat(2,1fr)}.journey{gap:35px}.hero-note{right:25px;bottom:20px}.safety{margin-left:22px;margin-right:22px}.auth-art{padding:30px}.auth-panel{padding:32px 22px}.stats-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:680px){.header{height:72px}.nav-wrap{padding:0 17px}.brand{font-size:19px}.brand-icon{width:37px;height:37px}.menu-toggle{display:block}.nav{display:none;position:absolute;top:71px;left:0;right:0;background:white;padding:18px 22px 22px;border-bottom:1px solid var(--line);box-shadow:0 15px 30px #271b2d10;flex-direction:column;align-items:stretch;gap:18px}.nav.open{display:flex}.nav-login{justify-content:center}.hero{min-height:620px;background-position:60% center}.hero-shade{background:linear-gradient(90deg,#2b173bed,#392148bd 75%,#39214888)}.hero-content{padding:55px 22px 115px}.hero h1{font-size:47px}.hero-content>p{font-size:13px}.hero-note{left:22px;right:auto;bottom:18px;max-width:calc(100% - 44px)}.section{padding:58px 20px}.feature-grid{gap:11px}.feature-card{padding:18px 15px;min-height:245px}.feature-card h3{font-size:14px}.feature-card p{font-size:11px}.journey{grid-template-columns:1fr;padding:55px 22px;gap:25px}.safety{margin:25px 16px 42px;align-items:flex-start;flex-wrap:wrap;padding:18px}.safety>div{width:calc(100% - 65px);flex:initial}.safety>a{margin-left:60px}.footer-inner{padding:28px 20px 18px}.page-hero{padding:50px 18px 35px}.page-hero h1{font-size:36px}.content-wrap{padding:0 16px}.search-row{align-items:stretch}.searchbox{max-width:none;min-width:0}.tabs{overflow-x:auto;flex-wrap:nowrap}.tab{white-space:nowrap}.knowledge-grid,.doctor-grid{grid-template-columns:1fr}.doctor-search{flex-direction:column}.doctor-search .field{width:100%;min-width:0}.auth-page{grid-template-columns:1fr}.auth-art{min-height:250px;padding:30px 22px}.auth-art h1{font-size:37px;margin:18px 0 12px}.auth-art-pills{display:none}.auth-panel{padding:34px 20px}.auth-form h2{font-size:27px}.dashboard-page{padding:35px 15px 55px}.dash-heading h1{font-size:31px}.dash-heading p{max-width:260px;line-height:1.6}.stats-grid{gap:9px}.stat-card{padding:15px}.stat-card span{font-size:10px}.stat-card b{font-size:27px}.dash-section{padding:17px;margin-top:13px}.dash-section-head{align-items:flex-start;flex-direction:column}.dashboard-form,.record-grid,.about-grid{grid-template-columns:1fr}.dashboard-form label{grid-column:auto!important}.modal{padding:25px 20px}.verified{position:static;display:inline-flex;margin:0 0 8px}.doctor-avatar{margin-bottom:10px}.doctor-card h3{margin-top:5px}}
+
+
+/* Image-based AyurVedaCare knowledge cards */
+.knowledge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  margin: 28px 0;
+}
+
+.knowledge-card {
+  overflow: hidden;
+  border: 1px solid #e4e7dc;
+  border-radius: 20px;
+  background: #fffdf8;
+  box-shadow: 0 6px 20px rgba(36, 76, 55, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.knowledge-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px rgba(36, 76, 55, 0.15);
+}
+
+.knowledge-image {
+  position: relative;
+  height: 205px;
+  overflow: hidden;
+  background: #e8eee3;
+}
+
+.knowledge-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.knowledge-image .reference-tag {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 7px 10px;
+  border-radius: 20px;
+  background: #fffdf8;
+  color: #244c37;
+  font-size: 11px;
+}
+
+.knowledge-card-body {
+  padding: 22px;
+}
+
+.knowledge-card-body h3 {
+  margin: 12px 0;
+  color: #244c37;
+  font-size: 23px;
+}
+
+.knowledge-card-body p {
+  color: #697267;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.knowledge-card-body .latin {
+  color: #a07b45;
+  font-style: italic;
+}
+
+.knowledge-card details {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid #e4e7dc;
+}
+
+.knowledge-card summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #244c37;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.knowledge-card .precaution {
+  padding: 12px;
+  border-radius: 10px;
+  background: #f6f1e6;
+}
+
+@media (max-width: 600px) {
+  .knowledge-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* AyurVedaCare category page backgrounds */
+.page-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 75px 22px 60px;
+  min-height: 340px;
+}
+
+/* Dark overlay to keep text readable */
+.page-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    90deg,
+    rgba(45, 24, 63, 0.88),
+    rgba(65, 39, 79, 0.58),
+    rgba(45, 24, 63, 0.18)
+  );
+}
+
+/* Keep the title and description readable */
+.page-hero h1 {
+  color: #ffffff;
+  font-size: clamp(36px, 4vw, 52px);
+}
+
+.page-hero h1 em {
+  color: #d5e5c5;
+}
+
+.page-hero > p {
+  color: #ffffff;
+}
+
+/* Individual page backgrounds */
+.page-hero.herbs-hero {
+  background-image: url("/images/herbs-bg.jpg");
+}
+
+.page-hero.medicines-hero {
+  background-image: url("/images/medicines-bg.jpg");
+}
+
+.page-hero.conditions-hero {
+  background-image: url("/images/conditions-bg.jpg");
+}
+
+.page-hero.therapies-hero {
+  background-image: url("/images/therapies-bg.jpg");
+}
+
+@media (max-width: 600px) {
+  .page-hero {
+    min-height: 290px;
+    padding: 50px 18px 40px;
+  }
+}
+
+/* Make Knowledge Garden heading bright and readable */
+.page-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background-color: #3b1d50;
+  background-size: cover;
+  background-position: center;
+  padding: 75px 22px 60px;
+  min-height: 340px;
+}
+
+/* Strong purple overlay for contrast */
+.page-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    100deg,
+    rgba(40, 16, 58, 0.94) 0%,
+    rgba(61, 28, 82, 0.82) 55%,
+    rgba(43, 23, 57, 0.48) 100%
+  );
+}
+
+/* Small heading */
+.page-hero .section-kicker {
+  display: inline-block;
+  color: #f4d27c;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
+}
+
+/* Main heading */
+.page-hero h1 {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(38px, 5vw, 56px);
+  font-weight: 700;
+  line-height: 1.2;
+  text-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
+  margin: 15px 0 20px;
+}
+
+/* Highlight the word knowledge */
+.page-hero h1 em {
+  color: #f4d27c;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Description text */
+.page-hero > p {
+  max-width: 690px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.9;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width: 600px) {
+  .page-hero {
+    padding: 48px 18px 40px;
+    min-height: 290px;
+  }
+
+  .page-hero h1 {
+    font-size: 36px;
+  }
+
+  .page-hero > p {
+    font-size: 13px;
+  }
+}
+.herbs-section {
+  background: linear-gradient(
+      rgba(247, 250, 230, 0.82),
+      rgba(247, 250, 230, 0.82)
+    ),
+    url("/images/backgrounds/herbs-bg.jpg") center/cover no-repeat;
+}
+
+.medicines-section {
+  background: linear-gradient(
+      rgba(255, 246, 229, 0.84),
+      rgba(255, 246, 229, 0.84)
+    ),
+    url("/images/backgrounds/medicine-bg.jpg") center/cover no-repeat;
+}
+
+.conditions-section {
+  background: linear-gradient(
+      rgba(231, 246, 250, 0.84),
+      rgba(231, 246, 250, 0.84)
+    ),
+    url("/images/backgrounds/conditions-bg.jpg") center/cover no-repeat;
+}
+
+.therapies-section {
+  background: linear-gradient(
+      rgba(247, 249, 220, 0.80),
+      rgba(247, 249, 220, 0.80)
+    ),
+    url("/images/backgrounds/therapies-bg.jpg") center/cover no-repeat;
+}
+
+/* Soft Ayurvedic backgrounds for the knowledge section */
+
+.knowledge-content {
+  position: relative;
+  isolation: isolate;
+  padding: 24px;
+  border-radius: 0 0 20px 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 0.3s ease;
+}
+
+/* Herbs */
+.knowledge-content.herbs-background {
+  background-image:
+    linear-gradient(rgba(247, 250, 240, 0.86), rgba(247, 250, 240, 0.86)),
+    url("/images/herbs/tulsi.jpg");
+}
+
+/* Medicines */
+.knowledge-content.medicines-background {
+  background-image:
+    linear-gradient(rgba(255, 247, 235, 0.88), rgba(255, 247, 235, 0.88)),
+    url("/images/medicine/chyawanprash.jpg");
+}
+
+/* Conditions */
+.knowledge-content.conditions-background {
+  background-image:
+    linear-gradient(rgba(239, 248, 245, 0.88), rgba(239, 248, 245, 0.88)),
+    url("/images/conditions/skin_health.jpg");
+}
+
+/* Therapies */
+.knowledge-content.therapies-background {
+  background-image:
+    linear-gradient(rgba(247, 244, 251, 0.86), rgba(247, 244, 251, 0.86)),
+    url("/images/therapies/abhyanga.jpg");
+}
+
+/* Keep the cards readable */
+.knowledge-content .knowledge-card {
+  background-color: rgba(255, 255, 255, 0.94);
+  border: 1px solid rgba(113, 91, 120, 0.14);
+}
+
+/* Keep the search box and tabs clear */
+.knowledge-content .searchbox {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* ==========================================
+   AYURVEDACARE HOME PAGE
+   Botanical, pastel and animated design
+========================================== */
+
+.ayur-home {
+  overflow: hidden;
+  background: #fcfaf7;
+  color: #29213a;
+}
+
+.ayur-home a {
+  text-decoration: none;
+}
+
+.ayur-hero {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse at 75% 45%, #fff1cb 0%, transparent 40%),
+    linear-gradient(115deg, #fbf7eb, #f4f2e5 54%, #f5ead5);
+}
+
+.ayur-hero::before,
+.ayur-hero::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  filter: blur(65px);
+  opacity: 0.45;
+  animation: ayurGlow 8s ease-in-out infinite alternate;
+}
+
+.ayur-hero::before {
+  background: #d8e8bd;
+  left: -140px;
+  top: 40px;
+}
+
+.ayur-hero::after {
+  background: #f5d8ac;
+  right: 12%;
+  bottom: -180px;
+  animation-delay: -4s;
+}
+
+.ayur-hero-inner {
+  width: min(1450px, 90%);
+  min-height: 470px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 0.95fr;
+  align-items: center;
+  gap: 35px;
+  padding: 48px 0;
+}
+
+.ayur-hero-copy {
+  z-index: 2;
+  animation: ayurRise 0.9s ease both;
+}
+
+.ayur-eyebrow,
+.ayur-section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #527a42;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.ayur-hero h1 {
+  margin: 22px 0 18px;
+  color: #43245f;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(38px, 4.2vw, 65px);
+  line-height: 1.08;
+  letter-spacing: -1.8px;
+}
+
+.ayur-hero h1 em,
+.ayur-explore h2 em,
+.ayur-journey h2 em {
+  color: #477a47;
+  font-weight: 600;
+}
+
+.ayur-hero h1 em,
+.ayur-explore h2 em,
+.ayur-journey h2 em {
+  font-style: italic;
+}
+
+.ayur-hero-copy > p {
+  max-width: 570px;
+  color: #4f4a5a;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.ayur-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  margin-top: 25px;
+}
+
+.ayur-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 47px;
+  padding: 12px 21px;
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.ayur-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 9px 25px #39204b25;
+}
+
+.ayur-button-primary {
+  color: #fff;
+  background: linear-gradient(120deg, #512b70, #39204f);
+}
+
+.ayur-button-outline {
+  color: #4c3862;
+  border: 1px solid #cbbbd8;
+  background: #ffffffa8;
+}
+
+.ayur-trust {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 35px;
+}
+
+.ayur-trust > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ayur-trust > div > svg {
+  width: 29px;
+  height: 29px;
+  color: #4c7d3e;
+}
+
+.ayur-trust span,
+.hero-floating-card div {
+  display: grid;
+  gap: 4px;
+}
+
+.ayur-trust b {
+  font-size: 12px;
+}
+
+.ayur-trust small {
+  color: #777080;
+  font-size: 11px;
+}
+
+.ayur-hero-visual {
+  min-height: 365px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  animation: ayurFloat 6s ease-in-out infinite;
+}
+
+.hero-image-glow {
+  position: absolute;
+  width: 75%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #e0e8b8;
+  filter: blur(35px);
+  opacity: 0.65;
+}
+
+.ayur-hero-image {
+  position: relative;
+  width: min(72%, 410px);
+  height: 310px;
+  object-fit: cover;
+  border-radius: 48% 48% 22px 22px;
+  box-shadow: 0 20px 50px #4d512b22;
+  mask-image: linear-gradient(to bottom, black 72%, transparent 100%);
+}
+
+.ayur-hero-small-image {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 4%;
+  bottom: 15px;
+  object-fit: cover;
+  border: 7px solid #fffaf0;
+  border-radius: 50%;
+  box-shadow: 0 12px 30px #40312820;
+}
+
+.hero-floating-card {
+  position: absolute;
+  right: 0;
+  bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border: 1px solid #ffffffcc;
+  border-radius: 18px;
+  background: #ffffffdf;
+  box-shadow: 0 12px 35px #4d3c3015;
+  animation: ayurFloat 4s ease-in-out infinite;
+}
+
+.floating-leaf {
+  display: grid;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  color: #4c7d3e;
+  border-radius: 50%;
+  background: #e8f0d8;
+}
+
+.hero-floating-card b {
+  font-size: 13px;
+}
+
+.hero-floating-card small {
+  color: #81778a;
+  font-size: 11px;
+}
+
+.hero-round-stamp {
+  position: absolute;
+  right: 2%;
+  top: 4px;
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  width: 100px;
+  height: 100px;
+  align-content: center;
+  border: 1px solid #c4a450;
+  border-radius: 50%;
+  color: #846824;
+  background: #fff9e6b8;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.hero-botanical {
+  position: absolute;
+  z-index: -1;
+  color: #6b8e45;
+  opacity: 0.16;
+  font-size: 120px;
+  pointer-events: none;
+}
+
+.hero-botanical-left {
+  left: -28px;
+  top: 0;
+  transform: rotate(-30deg);
+}
+
+.hero-botanical-right {
+  right: -20px;
+  bottom: 0;
+  transform: rotate(30deg);
+}
+
+/* Knowledge category area */
+
+.ayur-explore {
+  padding: 65px 0;
+  background:
+    radial-gradient(ellipse at 15% 20%, #e8efd9 0%, transparent 40%),
+    linear-gradient(110deg, #fcf9fc, #f6f1f7);
+}
+
+.ayur-explore-inner {
+  width: min(1450px, 90%);
+  margin: auto;
+  display: grid;
+  grid-template-columns: 0.9fr 1.5fr;
+  align-items: center;
+  gap: 45px;
+}
+
+.ayur-explore h2,
+.ayur-journey h2 {
+  margin: 14px 0;
+  color: #42245e;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(32px, 3vw, 43px);
+  line-height: 1.12;
+}
+
+.ayur-explore-intro > p,
+.journey-intro > p {
+  color: #6b6473;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.ayur-search {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+  padding: 5px 8px 5px 17px;
+  border: 1px solid #e8dfea;
+  border-radius: 17px;
+  background: #fff;
+  box-shadow: 0 7px 20px #4a2a5810;
+}
+
+.ayur-search > svg {
+  flex-shrink: 0;
+  color: #795d8b;
+}
+
+.ayur-search input {
+  width: 100%;
+  min-width: 0;
+  height: 40px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #352540;
+  font: inherit;
+  font-size: 13px;
+}
+
+.ayur-search button {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  border: 0;
+  border-radius: 12px;
+  color: white;
+  background: #512c6d;
+  cursor: pointer;
+}
+
+.ayur-category-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.ayur-category-card {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px 12px 17px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ayur-category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 32px #4c38551a;
+}
+
+.ayur-category-card.herb {
+  border-color: #dce9ce;
+  background: linear-gradient(150deg, #f3f8e9, #fff);
+}
+
+.ayur-category-card.medicine {
+  border-color: #f4dfc3;
+  background: linear-gradient(150deg, #fff2df, #fff);
+}
+
+.ayur-category-card.condition {
+  border-color: #cfe6e8;
+  background: linear-gradient(150deg, #e9f5f5, #fff);
+}
+
+.ayur-category-card.therapy {
+  border-color: #e5d5f0;
+  background: linear-gradient(150deg, #f4eafa, #fff);
+}
+
+.category-icon {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #ffffffbd;
+  color: #4d7b3e;
+}
+
+.medicine .category-icon { color: #a86b28; }
+.condition .category-icon { color: #368d9d; }
+.therapy .category-icon { color: #70468c; }
+
+.category-image-wrap {
+  width: 100%;
+  height: 105px;
+  margin: 10px 0;
+  overflow: hidden;
+  border-radius: 13px;
+}
+
+.category-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.ayur-category-card:hover .category-image-wrap img {
+  transform: scale(1.09);
+}
+
+.ayur-category-card h3 {
+  margin: 5px 0 6px;
+  color: #30213e;
+  font-size: 15px;
+}
+
+.ayur-category-card > p {
+  min-height: 38px;
+  margin: 0;
+  color: #72677b;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.category-arrow {
+  display: grid;
+  place-items: center;
+  width: 31px;
+  height: 31px;
+  margin-top: 12px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  color: #537b42;
+}
+
+.medicine .category-arrow { color: #c58a42; }
+.condition .category-arrow { color: #438d9c; }
+.therapy .category-arrow { color: #8559a1; }
+
+/* Care journey */
+
+.ayur-journey {
+  display: grid;
+  grid-template-columns: 0.8fr 1.8fr;
+  gap: 55px;
+  align-items: center;
+  padding: 58px max(5%, calc((100% - 1450px) / 2));
+  background:
+    radial-gradient(ellipse at 50% 100%, #e3edcf, transparent 60%),
+    #f1f6e9;
+}
+
+.journey-timeline {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.journey-item {
+  position: relative;
+  text-align: center;
+}
+
+.journey-icon {
+  display: grid;
+  place-items: center;
+  width: 65px;
+  height: 65px;
+  margin: 0 auto 12px;
+  border-radius: 50%;
+  animation: ayurFloat 5s ease-in-out infinite;
+}
+
+.journey-item:nth-child(2) .journey-icon { animation-delay: -1s; }
+.journey-item:nth-child(3) .journey-icon { animation-delay: -2s; }
+.journey-item:nth-child(4) .journey-icon { animation-delay: -3s; }
+
+.journey-icon svg {
+  width: 29px;
+  height: 29px;
+}
+
+.journey-icon.green { background: #e0edcb; color: #4e803d; }
+.journey-icon.purple { background: #e9ddf2; color: #704b8e; }
+.journey-icon.blue { background: #dceef4; color: #2c83b2; }
+.journey-icon.pink { background: #efdfed; color: #81517c; }
+
+.journey-number {
+  color: #6c8053;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.journey-item h3 {
+  margin: 5px 0;
+  color: #30213e;
+  font-size: 15px;
+}
+
+.journey-item > p {
+  color: #716a76;
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.ayur-home-note {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 25px max(5%, calc((100% - 1450px) / 2));
+  background: #fffdf9;
+  color: #527a42;
+}
+
+.ayur-home-note > svg {
+  flex-shrink: 0;
+}
+
+.ayur-home-note p {
+  display: grid;
+  gap: 5px;
+  flex: 1;
+  margin: 0;
+}
+
+.ayur-home-note p b {
+  color: #39264b;
+  font-size: 13px;
+}
+
+.ayur-home-note p span {
+  color: #827989;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.ayur-home-note > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #522d6e;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Animations */
+
+@keyframes ayurRise {
+  from { opacity: 0; transform: translateY(22px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes ayurFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes ayurGlow {
+  from { transform: scale(0.95); }
+  to { transform: scale(1.12); }
+}
+
+/* Tablet */
+
+@media (max-width: 1050px) {
+  .ayur-hero-inner {
+    grid-template-columns: 1fr 0.8fr;
+    gap: 15px;
+  }
+
+  .ayur-explore-inner {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .ayur-category-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .ayur-journey {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 650px) {
+  .ayur-hero-inner {
+    width: 90%;
+    grid-template-columns: 1fr;
+    padding: 45px 0 30px;
+  }
+
+  .ayur-hero h1 {
+    font-size: 43px;
+  }
+
+  .ayur-hero-visual {
+    min-height: 280px;
+  }
+
+  .ayur-hero-image {
+    height: 250px;
+  }
+
+  .ayur-hero-small-image {
+    width: 90px;
+    height: 90px;
+  }
+
+  .hero-round-stamp {
+    width: 80px;
+    height: 80px;
+    font-size: 8px;
+  }
+
+  .ayur-trust {
+    gap: 15px;
+  }
+
+  .ayur-explore {
+    padding: 42px 0;
+  }
+
+  .ayur-category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .category-image-wrap {
+    height: 120px;
+  }
+
+  .journey-timeline {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 28px;
+  }
+
+  .ayur-home-note {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .ayur-home-note > a {
+    margin-left: 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ayur-home *,
+  .ayur-home *::before,
+  .ayur-home *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ==============================
+   AYURVEDACARE DOCTORS PAGE
+================================ */
+
+.doctors-page {
+  min-height: 100vh;
+  padding: 40px 5%;
+  background:
+    linear-gradient(
+      110deg,
+      rgba(250, 248, 235, 0.94),
+      rgba(240, 246, 226, 0.86)
+    ),
+    url("/images/backgrounds/doctors-bg.jpg")
+      center / cover no-repeat;
+  background-attachment: fixed;
+}
+
+/* ==============================
+   AYURVEDACARE DASHBOARD PAGE
+================================ */
+
+.dashboard-page {
+  min-height: 100vh;
+  padding: 40px 5%;
+  background:
+    linear-gradient(
+      110deg,
+      rgba(249, 245, 252, 0.94),
+      rgba(239, 246, 232, 0.88)
+    ),
+    url("/images/backgrounds/dashboard-bg.jpg")
+      center / cover no-repeat;
+  background-attachment: fixed;
+}
+
+/* Keep page content readable */
+
+.doctors-page .doctor-card,
+.dashboard-page .dashboard-card {
+  background: rgba(255, 255, 255, 0.90);
+  border: 1px solid rgba(83, 43, 105, 0.12);
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(56, 35, 66, 0.08);
+  backdrop-filter: blur(5px);
+}
+
+/* Mobile responsiveness */
+
+@media (max-width: 768px) {
+  .doctors-page,
+  .dashboard-page {
+    padding: 24px 16px;
+    background-attachment: scroll;
+    background-position: center;
+  }
+}
+
+/* Doctors page background */
+.doctors-page {
+  min-height: 100vh;
+  background:
+    linear-gradient(
+      110deg,
+      rgba(250, 248, 235, 0.40),
+      rgba(240, 246, 226, 0.30)
+    ),
+    url("/images/backgrounds/doctors-bg.jpg") center / cover no-repeat;
+  background-attachment: fixed;
+}
+
+/* Dashboard page background */
+.dashboard-page {
+  min-height: 100vh;
+  background:
+    linear-gradient(
+      110deg,
+      rgba(252, 245, 245, 0.40),
+      rgba(239, 246, 232, 0.30)
+    ),
+    url("/images/backgrounds/dashboard-bg.jpg") center / cover no-repeat;
+  background-attachment: fixed;
+}
+
+/* Keep doctor cards readable */
+.doctors-page .doctor-card {
+  background: rgba(255, 255, 255, 0.60);
+  backdrop-filter: blur(5px);
+}
+
+/* Keep dashboard sections readable */
+.dashboard-page .dash-section,
+.dashboard-page .stat-card {
+  background-color: rgba(255, 255, 255, 0.90);
+  backdrop-filter: blur(5px);
+}
+
+@media (max-width: 768px) {
+  .doctors-page,
+  .dashboard-page {
+    background-attachment: scroll;
+    background-position: center;
+  }
+}
